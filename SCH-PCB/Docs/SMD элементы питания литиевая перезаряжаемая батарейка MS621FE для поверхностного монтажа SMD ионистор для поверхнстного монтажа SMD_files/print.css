@@ -1,0 +1,74 @@
+	body{
+		margin: 0 7%;
+ 		padding:0;
+ 		background:#fff;
+ 		color:#000;
+ 		font:12pt "Georgia", serif;
+	}
+	
+	a{color: #000;}
+	
+	
+	a img{border: none;}
+	.photo{float: left; margin-right: 0.5pt;}
+	
+	
+	#content{margin: 0; padding: 0; display: block; float: none !important}
+
+	#basenav,
+	#topedit,
+	#topmenu,
+	#navibar,
+	#footer,
+	#sidebar,
+	ul.sub,
+	.stuff{
+		display: none;
+	}
+	
+	.content p,
+	.content li,
+	.content table caption,
+	.content table td,
+	.content table th{
+		line-height: 1.18em; 
+	}
+	
+	.content blockquote{margin-left: 0;}
+	
+	.content h1,
+	.content h2,
+	.content h3,
+	.content h4,
+	.content h5,
+	.content h6{
+		padding: 0;
+		margin: 1.2em 0 -0.2em 0;
+		line-height: 1.1em !important;
+	}
+	
+	.content h1{font-size: 1.4em; }
+	.content h2{font-size: 1.2em; }
+	.content h3{font-size: 1.2em; }
+	.content h4,
+	.content h5,
+	.content h6{font-size: 1em; }
+	.content h6{letter-spacing: 0.2em; }
+	
+	
+	.content .ImageLeft{margin-right: 0.7em; margin-bottom: 0.2em;} 
+	.content .ImageRight{margin-left: 0.7em; margin-bottom: 0.2em;}
+	.content .ImageCenter{display: block; margin: 0 auto; margin-bottom: 0.5em;}	
+	
+	.content .tablelist{width: 98%; margin: 0 auto; margin-bottom: 0.5em; border-collapse: collapse;}
+	.content .tablelist td,
+	.content .tablelist th{
+		border: solid #000 1px;
+		padding: 0.3em 0.5em;
+	}
+	.content .tablelist th{font-weight: bold; text-align: left; }
+	
+	.content a:link:after, .content a:visited:after {
+		content: " (" attr(href) ") ";
+		font-size: 90%;
+	}
